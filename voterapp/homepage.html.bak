@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>homepage</title>
+</head>
+<body style="background-color:yellow;background-image:url('images/ec.jpg');background-repeat:no-repeat;background-size:100% 100%">
+<h1 style="color:yellow;text-align:center;background-color:black">HTMLFORM TO SERVLET</h1>
+<br>
+<h1 style="color:orange;text-align:center;background-color:black">ELECTION COMMISION OF INDIA</h1>
+
+<form action="http://localhost:3030/voterapp/VoterServlet" method="post">
+<table align="center" bgcolor="cyan">
+<tr>
+<td>Name: </td>
+<td><input type="text" name="pname"</td>
+</tr>
+<tr>
+<td>Age:</td>
+<td><input type="text" name="page"</td>
+</tr>
+<tr>
+<td><input type="submit" value="checkvotingelgiblity"></td>
+<td><input type="reset" value="reset"</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

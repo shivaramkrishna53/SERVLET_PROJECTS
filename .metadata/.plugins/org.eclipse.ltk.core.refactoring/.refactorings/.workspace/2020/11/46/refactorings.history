@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MarriageApp-formvalidationserverside&apos; to &apos;proj7-MarriageApp-formvalidationserverside&apos;" description="Rename resource &apos;MarriageApp-formvalidationserverside&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/MarriageApp-formvalidationserverside" name="proj7-MarriageApp-formvalidationserverside" stamp="1605002164986" updateReferences="true"/>
+</session>

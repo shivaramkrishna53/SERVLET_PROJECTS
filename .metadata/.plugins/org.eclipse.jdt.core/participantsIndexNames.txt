@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+E:\shiva java developer full stack\servletprojects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2480376997.index
+\MarriageApp-formvalidationserverside\src
+E:\shiva java developer full stack\servletprojects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2788983911.index
+\MarriageApp\src
+E:\shiva java developer full stack\servletprojects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3715099818.index
+\proj7-MarriageApp-formvalidationserverside\src

@@ -1,0 +1,5 @@
+127.0.0.1 - - [17/Nov/2020:13:06:39 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [17/Nov/2020:13:06:39 +0530] "GET /proj7-MarriageApp-formvalidationserverside/ HTTP/1.1" 200 765
+0:0:0:0:0:0:0:1 - - [17/Nov/2020:13:06:39 +0530] "GET /proj7-MarriageApp-formvalidationserverside/images/marriage.jpg HTTP/1.1" 200 15897
+0:0:0:0:0:0:0:1 - - [17/Nov/2020:13:06:40 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [17/Nov/2020:13:06:57 +0530] "POST /proj7-MarriageApp-formvalidationserverside/marriageurl HTTP/1.1" 200 159

@@ -1,0 +1,21 @@
+package com.nt.servlet;
+import jakarta.servlet.*;
+import jakarta.servlet.http.*;
+import java.io.*;
+public class HtmlServlet extends HttpServlet 
+{
+	protected void service(HttpServletRequest req,HttpServletResponse res) throws ServletException,IOException
+	{
+		res.setContentType("text/html");
+		PrintWriter pw=res.getWriter();
+		pw.println("<table background-color:green;border:black border-spacing:5px;>");
+		pw.println("<tr> <th>TeamName</th> <th>TeamCap</th></tr>");
+		pw.println("<tr><td>srh</td><td>DavidWarner</td></tr>");
+		pw.println("<tr><td>csk</td><td>dhoni</td></tr>");
+		pw.println("</table>");
+		pw.close();
+
+
+	}
+	
+}
