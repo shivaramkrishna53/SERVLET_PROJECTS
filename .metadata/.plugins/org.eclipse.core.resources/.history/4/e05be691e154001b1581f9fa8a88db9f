@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Registration</title>
+</head>
+<body bgcolor="yellow">
+<center>
+<h1 >WELCOME TO THE REGISTRATION PAGE</h1>
+<form action="registrationurl" method="post">
+<table border="3">
+<tr>
+<td>Name::</td>
+<td>
+<input type="text" name="pname" placeholder="enter the name"/>
+</td>
+</tr>
+<tr>
+<td>Age::</td>
+<td>
+<input type="number" name="page" placeholder="enter the age"/>
+</td>
+</tr>
+<tr>
+<td>Address::</td>
+<td>
+<textarea rows="5" cols="20" placeholder="enter the address" name="address"></textarea>
+</td>
+</tr>
+<tr>
+<td>Gender::</td>
+<td>
+<input type="radio" name="gender" value="M">Male
+<input type="radio" name="gender" value="F">FeMale
+<input type="radio" name="gender" value="T">TransGender
+</td>
+</tr>
+</table>
+</form>
+</center>
+</body>
+</html>

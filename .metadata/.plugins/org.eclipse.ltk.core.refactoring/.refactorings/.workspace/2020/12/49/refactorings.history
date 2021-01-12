@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CountryApp-HtoSUsingJs&apos; to &apos;proj10-CountryApp-HtoSUsingJs&apos;" description="Rename resource &apos;CountryApp-HtoSUsingJs&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/CountryApp-HtoSUsingJs" name="proj10-CountryApp-HtoSUsingJs" stamp="1606897782989" updateReferences="true"/>
+</session>

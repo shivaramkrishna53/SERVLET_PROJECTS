@@ -1,0 +1,11 @@
+127.0.0.1 - - [18/Nov/2020:20:34:16 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [18/Nov/2020:20:34:17 +0530] "GET /proj7-MarriageApp-formvalidationserverside/ HTTP/1.1" 200 765
+0:0:0:0:0:0:0:1 - - [18/Nov/2020:20:34:17 +0530] "GET /proj7-MarriageApp-formvalidationserverside/images/marriage.jpg HTTP/1.1" 200 15897
+0:0:0:0:0:0:0:1 - - [18/Nov/2020:20:34:17 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [18/Nov/2020:20:34:26 +0530] "POST /proj7-MarriageApp-formvalidationserverside/marriageurl HTTP/1.1" 200 79
+0:0:0:0:0:0:0:1 - - [18/Nov/2020:20:36:03 +0530] "POST /proj7-MarriageApp-formvalidationserverside/marriageurl HTTP/1.1" 200 168
+0:0:0:0:0:0:0:1 - - [18/Nov/2020:20:36:04 +0530] "GET /proj7-MarriageApp-formvalidationserverside/images/home.png HTTP/1.1" 200 1927
+0:0:0:0:0:0:0:1 - - [18/Nov/2020:20:36:08 +0530] "GET /proj7-MarriageApp-formvalidationserverside/input.html HTTP/1.1" 200 765
+0:0:0:0:0:0:0:1 - - [18/Nov/2020:20:36:25 +0530] "POST /proj7-MarriageApp-formvalidationserverside/marriageurl HTTP/1.1" 200 194
+0:0:0:0:0:0:0:1 - - [18/Nov/2020:20:37:38 +0530] "GET /proj7-MarriageApp-formvalidationserverside/input.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Nov/2020:20:37:46 +0530] "POST /proj7-MarriageApp-formvalidationserverside/marriageurl HTTP/1.1" 200 168

@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>calculator</title>
+</head>
+<body bgcolor="orange">
+<center>
+<h1 style="text-align: center;background: black;color:YELLOW">WORKING WITH MULTIPLE HYPERLINKS AND SUBMIT BUTTONS</h1>
+<h2 style="text-align:center;background: white" colr:red">Calculator Application</h2>
+<table border="2" >
+<tr>
+<td>First Number::</td>
+<td>
+<input type="text" name="first"/>
+</td>
+</tr>
+<tr>
+<td>Second Number::
+</td>
+<td>
+<input type="text" name="second"/>
+</td>
+</tr>
+<tr>
+<input type="button" name="cal" value="add"/>
+<input type="button" name="cal" value="substract"/>
+<input type="button" name="cal" value="multiply"/>
+</tr>
+</table>
+</center>
+</body>
+</html>

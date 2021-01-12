@@ -1,0 +1,34 @@
+package com.nt.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class CalculatorServlet extends HttpServlet {
+
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doPost(req, resp);
+	}
+	
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		int num1=Integer.parseInt(req.getParameter("first"));
+		int num2=Integer.parseInt(req.getParameter("second"));
+		String action=req.getParameter("cal");
+		resp.setContentType("text/html");
+		PrintWriter pw=resp.getWriter();
+		if(action=="add")
+		{
+			
+		}
+		
+	}
+	
+}

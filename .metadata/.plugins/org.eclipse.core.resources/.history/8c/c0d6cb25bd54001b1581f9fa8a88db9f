@@ -1,0 +1,60 @@
+package com.nt.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class CalculatorServlet extends HttpServlet {
+
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doPost(req, resp);
+		System.out.println("do get");
+	}
+	
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		System.out.println("do post");
+		int num1=Integer.parseInt(req.getParameter("first"));
+		int num2=Integer.parseInt(req.getParameter("second"));
+		String action=req.getParameter("cal");
+		resp.setContentType("text/html");
+		PrintWriter pw=resp.getWriter();
+		if(action.equalsIgnoreCase("add"))
+		{
+			int res=num1+num2;
+			pw.println("<h1 style='text-align:center;color:green'>The Addition Result is::"+res+"</h1>");
+		}
+		else
+			if(action=="substract")
+			{
+				int res=num1-num2;
+				pw.println("<h1 style='text-align:center;color:green'>The Substraction Result is::"+res+"</h1>");
+				
+			}
+			else
+				if(action=="multiply")
+				{
+					int res=num1*num2;
+					pw.println("<h1 style='text-align:center;color:green'>The Multiplication Result is::"+res+"</h1>");
+					
+				}
+				else
+					if(action=="division")
+					{
+						if(num2==0)
+							pw.println("<h1 style='color:red;text-align:center'>Second Number cannot be 0</h1>");
+						int res=num1/num2;
+						pw.println("<h1 style='text-align:center;color:green'>The Substraction Result is::"+res+"</h1>");
+						
+					}
+		
+	}
+	
+}

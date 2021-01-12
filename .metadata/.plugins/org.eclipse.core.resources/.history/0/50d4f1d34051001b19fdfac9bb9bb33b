@@ -1,0 +1,28 @@
+<body style="background-color:cyan">
+<h1 style="color:red;text-align:center">SHADHI.COM</h1>
+<center><img src="images/marriage.jpg" height=500 width=800/></center>
+<form action="marriageurl" >
+<table style="background-color:orange" border="1" align="center" >
+<tr>
+<td>Name</td>
+<td><input type="text" name="pname"></td>
+</tr>
+<tr>
+<td>Age</td>
+<td><input type="password" name="page"></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td>
+<input type="radio" name="gender" value="M" checked>Male
+<input type="radio" name="gender" value="F">Female
+</td>
+</tr>
+<tr>
+<td><input type="submit" value="checkformarriageelgibility"></td>
+<td><input type="reset" value="clear"></td>
+</tr>
+</table>
+</form>
+<a href="marriageurl">link for go</a>
+</body>

@@ -1,0 +1,350 @@
+
+Nov 19, 2020 12:40:53.454 NEW SESSION
+Nov 19, 2020 12:40:53.454 [1119/124053.450:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+Nov 19, 2020 13:15:56.706 [3024:15208:1119/131556.704:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Nov 19, 2020 13:19:55.77 [3024:15208:1119/131955.076:ERROR:socket_stream.cc(219)] Closing stream with result -2
+
+Nov 26, 2020 13:15:27.09 NEW SESSION
+Nov 26, 2020 13:15:27.09 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 26, 2020 13:33:05.143 
+Nov 26, 2020 13:33:05.147 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Nov 26, 2020 13:33:05.148 
+Nov 26, 2020 14:22:45.386 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Nov 26, 2020 14:22:45.387 Can't find symbol 'eglSetDamageRegionKHR'.
+Nov 26, 2020 14:23:20.809 
+Nov 26, 2020 14:23:20.810 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Nov 26, 2020 14:23:20.811 
+
+Dec 01, 2020 17:29:49.79 NEW SESSION
+Dec 01, 2020 17:29:49.79 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Dec 01, 2020 17:29:49.171 Can't find symbol 'eglSetDamageRegionKHR'.
+Dec 01, 2020 17:30:17.24 
+Dec 01, 2020 17:30:17.27 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Dec 01, 2020 17:30:17.28 
+Dec 01, 2020 18:56:13.781 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Dec 01, 2020 18:56:13.782 Can't find symbol 'eglSetDamageRegionKHR'.
+Dec 01, 2020 18:56:50.484 
+Dec 01, 2020 18:56:50.485 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Dec 01, 2020 18:56:50.486 
+Dec 01, 2020 22:27:51.187 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Dec 01, 2020 22:27:51.288 Can't find symbol 'eglSetDamageRegionKHR'.
+Dec 01, 2020 22:49:28.48 
+Dec 01, 2020 22:49:28.52 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 01, 2020 22:49:28.53 
+Dec 01, 2020 22:49:28.104 
+Dec 01, 2020 22:49:28.107 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Dec 01, 2020 22:49:28.109 
+
+Dec 02, 2020 14:16:24.164 NEW SESSION
+Dec 02, 2020 14:16:24.165 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Dec 02, 2020 14:16:24.174 Can't find symbol 'eglSetDamageRegionKHR'.
+Dec 02, 2020 14:16:32.282 [Parent 3644, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+Dec 02, 2020 14:16:32.400 
+Dec 02, 2020 14:16:32.403 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 02, 2020 14:16:32.404 
+Dec 02, 2020 14:16:32.426 
+Dec 02, 2020 14:16:32.428 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Dec 02, 2020 14:16:32.430 
+Dec 02, 2020 14:18:24.516 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Dec 02, 2020 14:18:24.517 Can't find symbol 'eglSetDamageRegionKHR'.
+Dec 02, 2020 14:18:58.255 
+Dec 02, 2020 14:18:58.256 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 02, 2020 14:18:58.257 
+Dec 02, 2020 14:18:58.282 
+Dec 02, 2020 14:18:58.283 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Dec 02, 2020 14:18:58.284 
+Dec 02, 2020 14:19:04.533 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Dec 02, 2020 14:19:04.537 Can't find symbol 'eglSetDamageRegionKHR'.
+Dec 02, 2020 14:20:44.949 
+Dec 02, 2020 14:20:44.952 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 02, 2020 14:20:44.956 
+Dec 02, 2020 14:20:44.987 
+Dec 02, 2020 14:20:44.989 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Dec 02, 2020 14:20:44.990 
+Dec 02, 2020 14:35:38.853 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Dec 02, 2020 14:35:38.854 Can't find symbol 'eglSetDamageRegionKHR'.
+Dec 02, 2020 14:35:48.492 [Parent 4056, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+Dec 02, 2020 14:35:48.600 
+Dec 02, 2020 14:35:48.601 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 02, 2020 14:35:48.602 
+Dec 02, 2020 14:35:48.632 
+Dec 02, 2020 14:35:48.635 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Dec 02, 2020 14:35:48.636 
+Dec 02, 2020 15:12:08.144 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Dec 02, 2020 15:12:08.145 Can't find symbol 'eglSetDamageRegionKHR'.
+
+Dec 02, 2020 18:11:29.568 NEW SESSION
+Dec 02, 2020 18:11:29.568 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Dec 02, 2020 18:11:29.568 Can't find symbol 'eglSetDamageRegionKHR'.
+Dec 02, 2020 18:25:14.267 
+Dec 02, 2020 18:25:14.272 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Dec 02, 2020 18:25:14.273 
+Dec 02, 2020 18:25:14.315 
+Dec 02, 2020 18:25:14.317 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Dec 02, 2020 18:25:14.318 
+Dec 02, 2020 18:35:29.431 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Dec 02, 2020 18:35:29.435 Can't find symbol 'eglSetDamageRegionKHR'.
+
+Jan 08, 2021 04:06:15.301 NEW SESSION
+Jan 08, 2021 04:06:15.302 C:\Users\shiva\AppData\Roaming\Mozilla\Firefox\Profiles\nyxot77p.default-release\prefs.js:1: prefs parse error: unexpected character
+Jan 08, 2021 04:06:15.313 C:\Users\shiva\AppData\Roaming\Mozilla\Firefox\Profiles\nyxot77p.default-release\user.js:1: prefs parse error: unexpected character
+Jan 08, 2021 04:06:16.641 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Jan 08, 2021 04:06:16.642 Can't find symbol 'eglSetDamageRegionKHR'.
+Jan 08, 2021 04:06:24.631 
+Jan 08, 2021 04:06:24.635 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jan 08, 2021 04:06:24.639 
+Jan 08, 2021 04:06:24.677 
+Jan 08, 2021 04:06:24.681 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jan 08, 2021 04:06:24.683 
+Jan 08, 2021 04:06:59.498 C:\Users\shiva\AppData\Roaming\Mozilla\Firefox\Profiles\nyxot77p.default-release\user.js:1: prefs parse error: unexpected character
+Jan 08, 2021 04:07:00.173 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Jan 08, 2021 04:07:00.174 Can't find symbol 'eglSetDamageRegionKHR'.
+Jan 08, 2021 04:07:04.469 _create_dc_and_bitmap: The operation completed successfully.
+Jan 08, 2021 04:07:04.471 
+
+Jan 08, 2021 18:56:03.695 NEW SESSION
+Jan 08, 2021 18:56:03.695 C:\Users\shiva\AppData\Roaming\Mozilla\Firefox\Profiles\nyxot77p.default-release\user.js:1: prefs parse error: unexpected character
+Jan 08, 2021 18:56:04.662 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Jan 08, 2021 18:56:04.663 Can't find symbol 'eglSetDamageRegionKHR'.
+Jan 08, 2021 19:25:24.41 
+Jan 08, 2021 19:25:24.42 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jan 08, 2021 19:25:24.43 
+Jan 08, 2021 19:25:24.204 
+Jan 08, 2021 19:25:24.207 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jan 08, 2021 19:25:24.211 
+
+Jan 08, 2021 22:40:02.522 NEW SESSION
+Jan 08, 2021 22:40:02.522 C:\Users\shiva\AppData\Roaming\Mozilla\Firefox\Profiles\nyxot77p.default-release\user.js:1: prefs parse error: unexpected character
+Jan 08, 2021 22:40:03.116 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Jan 08, 2021 22:40:03.117 Can't find symbol 'eglSetDamageRegionKHR'.
+Jan 09, 2021 24:03:17.754 
+Jan 09, 2021 24:03:17.762 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jan 09, 2021 24:03:17.764 
+
+Jan 09, 2021 14:33:45.571 NEW SESSION
+Jan 09, 2021 14:33:45.571 C:\Users\shiva\AppData\Roaming\Mozilla\Firefox\Profiles\nyxot77p.default-release\user.js:1: prefs parse error: unexpected character
+Jan 09, 2021 14:33:46.153 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Jan 09, 2021 14:33:46.154 Can't find symbol 'eglSetDamageRegionKHR'.
+Jan 09, 2021 14:34:05.724 
+Jan 09, 2021 14:34:05.727 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jan 09, 2021 14:34:05.741 
+Jan 09, 2021 14:34:14.256 C:\Users\shiva\AppData\Roaming\Mozilla\Firefox\Profiles\nyxot77p.default-release\user.js:1: prefs parse error: unexpected character
+Jan 09, 2021 14:34:14.839 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Jan 09, 2021 14:34:14.840 Can't find symbol 'eglSetDamageRegionKHR'.
+Jan 09, 2021 14:34:55.703 
+Jan 09, 2021 14:34:55.704 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jan 09, 2021 14:34:55.706 
+Jan 09, 2021 14:35:54.119 C:\Users\shiva\AppData\Roaming\Mozilla\Firefox\Profiles\nyxot77p.default-release\user.js:1: prefs parse error: unexpected character
+Jan 09, 2021 14:35:54.703 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Jan 09, 2021 14:35:54.704 Can't find symbol 'eglSetDamageRegionKHR'.
+Jan 09, 2021 14:36:25.848 
+Jan 09, 2021 14:36:25.857 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jan 09, 2021 14:36:25.858 
+Jan 09, 2021 14:51:35.933 C:\Users\shiva\AppData\Roaming\Mozilla\Firefox\Profiles\nyxot77p.default-release\user.js:1: prefs parse error: unexpected character
+Jan 09, 2021 14:51:36.515 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Jan 09, 2021 14:51:36.516 Can't find symbol 'eglSetDamageRegionKHR'.
+
+Jan 09, 2021 19:08:54.518 NEW SESSION
+Jan 09, 2021 19:08:54.518 C:\Users\shiva\AppData\Roaming\Mozilla\Firefox\Profiles\nyxot77p.default-release\user.js:1: prefs parse error: unexpected character
+Jan 09, 2021 19:08:55.466 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Jan 09, 2021 19:08:55.467 Can't find symbol 'eglSetDamageRegionKHR'.
+Jan 09, 2021 19:20:19.891 
+Jan 09, 2021 19:20:19.896 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jan 09, 2021 19:20:19.898 
+Jan 09, 2021 19:20:32.156 C:\Users\shiva\AppData\Roaming\Mozilla\Firefox\Profiles\nyxot77p.default-release\user.js:1: prefs parse error: unexpected character
+Jan 09, 2021 19:20:32.783 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Jan 09, 2021 19:20:32.784 Can't find symbol 'eglSetDamageRegionKHR'.
+Jan 09, 2021 19:21:16.669 [Parent 9864, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+Jan 09, 2021 19:21:27.864 C:\Users\shiva\AppData\Roaming\Mozilla\Firefox\Profiles\nyxot77p.default-release\user.js:1: prefs parse error: unexpected character
+Jan 09, 2021 19:21:28.460 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Jan 09, 2021 19:21:28.461 Can't find symbol 'eglSetDamageRegionKHR'.
+Jan 09, 2021 19:22:30.510 
+Jan 09, 2021 19:22:30.511 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jan 09, 2021 19:22:30.512 
+Jan 09, 2021 19:22:44.890 C:\Users\shiva\AppData\Roaming\Mozilla\Firefox\Profiles\nyxot77p.default-release\user.js:1: prefs parse error: unexpected character
+Jan 09, 2021 19:22:45.535 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Jan 09, 2021 19:22:45.536 Can't find symbol 'eglSetDamageRegionKHR'.
+Jan 09, 2021 19:24:14.270 C:\Users\shiva\AppData\Roaming\Mozilla\Firefox\Profiles\nyxot77p.default-release\user.js:1: prefs parse error: unexpected character
+Jan 09, 2021 19:24:14.876 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Jan 09, 2021 19:24:14.878 Can't find symbol 'eglSetDamageRegionKHR'.
+Jan 09, 2021 19:31:49.525 [Parent 6872, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+Jan 09, 2021 19:31:49.589 
+Jan 09, 2021 19:31:49.592 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jan 09, 2021 19:31:49.593 
+Jan 09, 2021 19:32:16.452 C:\Users\shiva\AppData\Roaming\Mozilla\Firefox\Profiles\nyxot77p.default-release\user.js:1: prefs parse error: unexpected character
+Jan 09, 2021 19:32:17.73 Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Jan 09, 2021 19:32:17.73 Can't find symbol 'eglSetDamageRegionKHR'.
+Jan 09, 2021 19:34:15.861 
+Jan 09, 2021 19:34:15.872 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jan 09, 2021 19:34:15.877 
+Jan 09, 2021 19:38:25.699 [9164:7672:0109/193825.692:ERROR:device_event_log_impl.cc(211)] [19:38:25.693] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 09, 2021 19:38:25.701 [9164:7672:0109/193825.696:ERROR:device_event_log_impl.cc(211)] [19:38:25.696] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 09, 2021 19:38:26.146 [9164:10460:0109/193826.146:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 09, 2021 19:38:50.336 [9164:10460:0109/193850.336:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 09, 2021 19:39:47.63 [9164:10460:0109/193947.051:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 09, 2021 19:41:38.540 [9164:10460:0109/194138.540:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 09, 2021 19:45:33.77 [9164:10460:0109/194533.076:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 09, 2021 19:48:22.179 [0109/194822.179:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+Jan 09, 2021 19:52:56.743 [9164:10460:0109/195256.743:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+
+Jan 09, 2021 20:50:41.45 NEW SESSION
+Jan 09, 2021 20:50:41.45 [13196:4808:0109/205041.042:ERROR:device_event_log_impl.cc(211)] [20:50:41.043] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 09, 2021 20:50:41.47 [13196:4808:0109/205041.046:ERROR:device_event_log_impl.cc(211)] [20:50:41.046] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 09, 2021 20:50:41.91 [13196:11776:0109/205041.090:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 09, 2021 20:51:21.744 [10892:10712:0109/205121.743:ERROR:device_event_log_impl.cc(211)] [20:51:21.743] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 09, 2021 20:51:21.750 [10892:10712:0109/205121.747:ERROR:device_event_log_impl.cc(211)] [20:51:21.747] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 09, 2021 20:51:21.870 [10892:1144:0109/205121.869:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 09, 2021 20:51:43.543 [10892:1144:0109/205143.543:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 09, 2021 20:52:33.735 [10892:1144:0109/205233.734:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 09, 2021 20:59:28.716 [3408:10148:0109/205928.715:ERROR:device_event_log_impl.cc(211)] [20:59:28.715] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 09, 2021 20:59:28.720 [3408:10148:0109/205928.719:ERROR:device_event_log_impl.cc(211)] [20:59:28.719] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 09, 2021 20:59:28.791 [3408:1556:0109/205928.790:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 09, 2021 20:59:51.236 [3408:1556:0109/205951.236:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 09, 2021 21:00:34.180 [3408:1556:0109/210034.179:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 09, 2021 21:02:12.179 [3408:1556:0109/210212.175:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 09, 2021 21:08:47.151 [3408:1556:0109/210847.150:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 09, 2021 21:09:11.968 [3408:1556:0109/210911.967:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 09, 2021 21:09:18.849 [0109/210918.848:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+Jan 09, 2021 21:10:05.691 [3408:1556:0109/211005.691:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 09, 2021 21:11:43.704 [3408:1556:0109/211143.703:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 09, 2021 21:14:56.466 [3408:1556:0109/211456.465:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 09, 2021 21:21:46.420 [3408:1556:0109/212146.418:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 10, 2021 24:02:15.844 [3408:1556:0110/000215.793:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 10, 2021 24:02:52.524 [3408:10148:0110/000252.524:ERROR:account_info_fetcher.cc(60)] OnGetTokenFailure: Connection failed (-106).
+Jan 10, 2021 24:05:34.986 [3408:13500:0110/000534.986:ERROR:get_updates_processor.cc(256)] PostClientToServerMessage() failed during GetUpdates with error 2
+Jan 10, 2021 24:06:19.995 [3408:12136:0110/000619.995:ERROR:get_updates_processor.cc(256)] PostClientToServerMessage() failed during GetUpdates with error 2
+Jan 10, 2021 24:08:12.05 [3408:12136:0110/000812.005:ERROR:get_updates_processor.cc(256)] PostClientToServerMessage() failed during GetUpdates with error 2
+Jan 10, 2021 24:12:15.798 [3408:1556:0110/001215.798:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 10, 2021 24:12:52.17 [3408:12136:0110/001252.016:ERROR:get_updates_processor.cc(256)] PostClientToServerMessage() failed during GetUpdates with error 2
+Jan 10, 2021 24:22:15.800 [3408:1556:0110/002215.800:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 10, 2021 24:22:52.24 [3408:6972:0110/002252.023:ERROR:get_updates_processor.cc(256)] PostClientToServerMessage() failed during GetUpdates with error 2
+Jan 10, 2021 24:32:15.813 [3408:1556:0110/003215.813:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 10, 2021 24:32:52.41 [3408:12548:0110/003252.041:ERROR:get_updates_processor.cc(256)] PostClientToServerMessage() failed during GetUpdates with error 2
+Jan 10, 2021 24:42:15.817 [3408:1556:0110/004215.817:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 10, 2021 24:52:15.819 [3408:1556:0110/005215.819:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 10, 2021 01:02:15.826 [3408:1556:0110/010215.825:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 10, 2021 01:12:15.829 [3408:1556:0110/011215.829:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 10, 2021 01:17:00.59 [3408:10148:0110/011700.046:ERROR:device_event_log_impl.cc(211)] [01:17:00.047] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+Jan 10, 2021 01:17:00.66 [3408:10148:0110/011700.054:ERROR:device_event_log_impl.cc(211)] [01:17:00.054] USB: usb_service_win.cc:281 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Jan 10, 2021 01:22:15.847 [3408:1556:0110/012215.841:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 10, 2021 01:32:15.850 [3408:1556:0110/013215.850:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 10, 2021 01:42:15.853 [3408:1556:0110/014215.853:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 10, 2021 01:52:15.861 [3408:1556:0110/015215.860:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 10, 2021 02:02:15.906 [3408:1556:0110/020215.906:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 10, 2021 02:12:15.912 [3408:1556:0110/021215.912:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 10, 2021 02:22:15.926 [3408:1556:0110/022215.926:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 10, 2021 02:32:15.933 [3408:1556:0110/023215.932:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+
+Jan 10, 2021 03:03:05.276 NEW SESSION
+Jan 10, 2021 03:03:05.276 [11540:13300:0110/030305.273:ERROR:device_event_log_impl.cc(211)] [03:03:05.273] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 10, 2021 03:03:05.278 [11540:13300:0110/030305.277:ERROR:device_event_log_impl.cc(211)] [03:03:05.277] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 10, 2021 03:03:05.325 [11540:5680:0110/030305.325:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 10, 2021 03:03:25.825 [11540:5680:0110/030325.825:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 10, 2021 03:04:23.472 [11540:5680:0110/030423.472:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 10, 2021 03:06:09.652 [11540:5680:0110/030609.652:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 10, 2021 03:09:58.192 [11540:5680:0110/030958.192:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 10, 2021 03:12:55.486 [0110/031255.485:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+Jan 10, 2021 03:15:33.685 [11540:5680:0110/031533.684:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 10, 2021 03:25:33.686 [11540:5680:0110/032533.686:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 10, 2021 03:42:32.293 [11540:5680:0110/034232.287:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+
+Jan 11, 2021 15:01:55.504 NEW SESSION
+Jan 11, 2021 15:01:55.504 [10536:120:0111/150155.501:ERROR:device_event_log_impl.cc(211)] [15:01:55.502] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 11, 2021 15:01:55.506 [10536:120:0111/150155.502:ERROR:device_event_log_impl.cc(211)] [15:01:55.503] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 11, 2021 15:01:55.507 [10536:120:0111/150155.503:ERROR:device_event_log_impl.cc(211)] [15:01:55.503] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 11, 2021 15:01:55.508 [10536:120:0111/150155.503:ERROR:device_event_log_impl.cc(211)] [15:01:55.503] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 11, 2021 15:01:55.576 [10536:1632:0111/150155.575:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 15:02:19.236 [10536:1632:0111/150219.234:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 15:03:07.634 [10536:1632:0111/150307.612:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 15:04:28.652 [10536:1632:0111/150428.651:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 15:06:37.507 [10536:120:0111/150637.494:ERROR:device_event_log_impl.cc(211)] [15:06:37.494] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+Jan 11, 2021 15:06:37.525 [10536:120:0111/150637.507:ERROR:device_event_log_impl.cc(211)] [15:06:37.507] USB: usb_service_win.cc:281 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Jan 11, 2021 15:07:54.741 [10536:1632:0111/150754.741:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 15:11:48.458 [0111/151148.457:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+Jan 11, 2021 15:13:51.649 [10536:1632:0111/151351.649:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 15:23:51.661 [10536:1632:0111/152351.661:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 15:36:47.757 [10536:1632:0111/153647.756:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 15:37:12.525 [10536:1632:0111/153712.525:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 15:38:09.221 [10536:1632:0111/153809.221:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 15:39:42.893 [10536:1632:0111/153942.893:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 15:42:29.954 [10536:1632:0111/154229.953:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 15:49:19.433 [10536:1632:0111/154919.433:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 16:15:30.42 [10536:1632:0111/161530.006:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 16:25:30.10 [10536:1632:0111/162530.009:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 16:35:30.19 [10536:1632:0111/163530.019:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 16:50:22.762 [10536:1632:0111/165022.760:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 17:00:22.771 [10536:1632:0111/170022.771:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 17:10:22.780 [10536:1632:0111/171022.780:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 17:20:22.806 [10536:1632:0111/172022.805:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 17:46:12.634 [7636:13600:0111/174612.633:ERROR:device_event_log_impl.cc(211)] [17:46:12.633] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 11, 2021 17:46:12.637 [7636:13600:0111/174612.637:ERROR:device_event_log_impl.cc(211)] [17:46:12.637] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 11, 2021 17:46:12.674 [7636:14128:0111/174612.673:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 17:46:41.708 [7636:14128:0111/174641.708:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 17:47:23.398 [7636:14128:0111/174723.398:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 17:49:15.506 [7636:14128:0111/174915.506:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 18:28:50.794 [7636:14128:0111/182850.785:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 18:33:19.804 [0111/183319.803:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+Jan 11, 2021 18:35:27.273 [7636:14128:0111/183527.273:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 18:45:27.286 [7636:14128:0111/184527.286:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 18:55:27.295 [7636:14128:0111/185527.295:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 19:05:27.299 [7636:14128:0111/190527.299:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 19:09:00.42 [7636:13600:0111/190900.041:ERROR:device_event_log_impl.cc(211)] [19:09:00.041] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+Jan 11, 2021 19:09:00.76 [7636:13600:0111/190900.075:ERROR:device_event_log_impl.cc(211)] [19:09:00.076] USB: usb_service_win.cc:281 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Jan 11, 2021 19:15:27.305 [7636:14128:0111/191527.305:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 19:25:27.308 [7636:14128:0111/192527.308:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 19:35:27.317 [7636:14128:0111/193527.317:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 19:45:27.333 [7636:14128:0111/194527.333:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 19:55:27.334 [7636:14128:0111/195527.334:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 19:58:01.940 [7636:13600:0111/195801.929:ERROR:device_event_log_impl.cc(211)] [19:58:01.929] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+Jan 11, 2021 19:58:01.951 [7636:13600:0111/195801.942:ERROR:device_event_log_impl.cc(211)] [19:58:01.942] USB: usb_service_win.cc:281 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Jan 11, 2021 20:05:27.344 [7636:14128:0111/200527.344:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 20:15:27.357 [7636:14128:0111/201527.357:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 21:23:46.41 [4604:5300:0111/212346.040:ERROR:device_event_log_impl.cc(211)] [21:23:46.040] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 11, 2021 21:23:46.55 [4604:5300:0111/212346.044:ERROR:device_event_log_impl.cc(211)] [21:23:46.044] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 11, 2021 21:33:40.805 [0111/213340.804:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+Jan 11, 2021 22:45:47.153 [4604:15240:0111/224547.131:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 22:52:24.884 [4604:15240:0111/225224.883:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 22:52:49.758 [4604:15240:0111/225249.758:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 22:53:49.560 [4604:15240:0111/225349.560:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 22:55:49.419 [4604:15240:0111/225549.419:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 22:59:41.331 [4604:15240:0111/225941.331:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 23:06:31.562 [4604:15240:0111/230631.561:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 23:16:31.570 [4604:15240:0111/231631.570:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 23:26:31.580 [4604:15240:0111/232631.580:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 23:37:53.185 [4604:15240:0111/233753.185:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 23:38:17.34 [4604:15240:0111/233817.034:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 23:39:04.340 [4604:15240:0111/233904.340:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 23:40:37.514 [4604:15240:0111/234037.514:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 23:44:30.373 [4604:15240:0111/234430.373:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2021 23:51:47.564 [4604:15240:0111/235147.564:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2021 24:38:37.991 [4604:15240:0112/003837.913:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2021 24:38:38.156 [4604:1260:0112/003838.155:ERROR:get_updates_processor.cc(256)] PostClientToServerMessage() failed during GetUpdates with error 2
+Jan 12, 2021 24:39:48.104 [4604:9560:0112/003948.093:ERROR:get_updates_processor.cc(256)] PostClientToServerMessage() failed during GetUpdates with error 2
+Jan 12, 2021 24:41:41.99 [4604:13212:0112/004141.099:ERROR:get_updates_processor.cc(256)] PostClientToServerMessage() failed during GetUpdates with error 2
+Jan 12, 2021 24:44:31.106 [4604:13212:0112/004431.105:ERROR:get_updates_processor.cc(256)] PostClientToServerMessage() failed during GetUpdates with error 2
+Jan 12, 2021 24:48:31.285 [4604:15240:0112/004831.285:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2021 24:51:36.124 [4604:13040:0112/005136.123:ERROR:get_updates_processor.cc(256)] PostClientToServerMessage() failed during GetUpdates with error 2
+Jan 12, 2021 24:58:31.292 [4604:15240:0112/005831.292:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+
+Jan 12, 2021 12:32:02.499 NEW SESSION
+Jan 12, 2021 12:32:02.499 [8740:12664:0112/123202.481:ERROR:device_event_log_impl.cc(211)] [12:32:02.480] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 12, 2021 12:32:02.617 [8740:12664:0112/123202.486:ERROR:device_event_log_impl.cc(211)] [12:32:02.485] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 12, 2021 12:32:02.683 [8740:9116:0112/123202.682:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2021 12:32:23.419 [8740:9116:0112/123223.418:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2021 12:33:14.814 [8740:9116:0112/123314.814:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2021 12:33:57.762 [10888:10724:0112/123357.760:ERROR:device_event_log_impl.cc(211)] [12:33:57.760] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 12, 2021 12:33:57.765 [10888:10724:0112/123357.764:ERROR:device_event_log_impl.cc(211)] [12:33:57.764] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 12, 2021 12:33:57.874 [10888:5056:0112/123357.874:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2021 12:34:24.616 [10888:5056:0112/123424.616:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2021 12:35:17.362 [10888:5056:0112/123517.362:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2021 12:36:43.545 [10888:5056:0112/123643.544:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2021 12:39:43.763 [10888:10724:0112/123943.763:ERROR:account_info_fetcher.cc(60)] OnGetTokenFailure: Connection failed (-106).
+Jan 12, 2021 12:39:58.226 [10888:5056:0112/123958.226:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2021 12:43:47.931 [0112/124347.930:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+Jan 12, 2021 12:47:20.678 [10888:5056:0112/124720.677:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2021 12:57:20.685 [10888:5056:0112/125720.684:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2021 13:16:08.937 [10888:5056:0112/131608.927:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2021 13:16:57.101 [10888:5056:0112/131657.100:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Jan 12, 2021 23:11:09.448 [16324:10312:0112/231109.447:ERROR:device_event_log_impl.cc(211)] [23:11:09.447] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 12, 2021 23:11:09.536 [16324:10312:0112/231109.448:ERROR:device_event_log_impl.cc(211)] [23:11:09.448] USB: usb_device_handle_win.cc:1020 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jan 12, 2021 23:21:00.801 [0112/232100.800:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

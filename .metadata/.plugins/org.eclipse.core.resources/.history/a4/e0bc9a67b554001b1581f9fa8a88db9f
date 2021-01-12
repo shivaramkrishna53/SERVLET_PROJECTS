@@ -1,0 +1,18 @@
+function val(frm)
+{
+	let num1=frm.first.value;
+	let num2=frm.second.value;
+	let flag=true;
+	//empty or not validation
+	if(num1=="" || num2=="")
+	{
+		flag=false;
+	}
+	//checking for not a number or not
+	if(isNaN(num1) || isNaN(num2))
+	{
+		flag=false;
+	}
+	
+	return flag;
+}

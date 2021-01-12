@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>CountryCaptials</title>
+</head>
+<body bgcolor="orange">
+<h1 style="text-align: center">HTML TO SERVLET USING JAVASCRIPT</h1>
+<h2 style="text-align: center">List of Countries</h2>
+<form action="countryurl" name="frm" method="get" >
+<center>
+Select::
+<select name="lstcountries" onchange="frm.submit()">
+<option value="0">INDIA</option>
+<option value="1">AUSTRALIA</option>
+<option value="2">CHINA</option>
+<option value="3">USA</option>
+<option value="4">SRILANKA</option>
+</select>
+</center>
+</form>
+</body>
+
+
+</html>

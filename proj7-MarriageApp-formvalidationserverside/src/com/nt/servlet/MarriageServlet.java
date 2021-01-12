@@ -25,6 +25,7 @@ public class MarriageServlet extends HttpServlet {
 		int age=0;
 		if(name==null || name.length()==0)
 		{
+			
 			errmsgs.add("Name feild cannot be empty");
 		}
 		else
@@ -35,6 +36,7 @@ public class MarriageServlet extends HttpServlet {
 		}
 		if(agestr==null || agestr.length()==0)
 		{
+			
 			errmsgs.add("age field cannot be empty");
 		}
 		else
@@ -51,15 +53,15 @@ public class MarriageServlet extends HttpServlet {
 				errmsgs.add("Age should only be numeric");
 			}
 		}
-		if(!errmsgs.isEmpty())
-		{
-			errmsgs.forEach(msg->
-			{
-			pw.println("<li><span style='color:red'>"+msg+"</span></li>");
-			}
-			);
-			return;
-		}
+		
+		  if(!errmsgs.isEmpty())
+		  { errmsgs.forEach(msg-> {
+		  pw.println("<li><span style='color:red'>"+msg+"</span></li>"); 
+		  }
+		  );
+		  return;
+		  }
+		 
 		
 		
 		//business logic
@@ -89,9 +91,11 @@ public class MarriageServlet extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		System.out.println("do get");
-		res.setContentType("text/html");
-		PrintWriter pw=res.getWriter();
-		pw.println("<h1>Welcome to getpage</h1>");
+		doPost(req, res);
+		/*
+		 * res.setContentType("text/html"); PrintWriter pw=res.getWriter();
+		 * pw.println("<h1>Welcome to getpage</h1>");
+		 */
 		
 	}
 

@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>calculator</title>
+</head>
+<body bgcolor="orange">
+<script src="js/validate.js">
+</script>
+<center>
+<h1 style="text-align: center;background: black;color:YELLOW">WORKING WITH MULTIPLE HYPERLINKS AND SUBMIT BUTTONS</h1>
+<h2 style="text-align:center;background: white" colr:red">Calculator Application</h2>
+<table border="2" >
+<form action="calculatorurl" method="post" onsubmit="return val(this)">
+<tr>
+<td>First Number::</td>
+<td>
+<input type="text" name="first"/>
+</td>
+</tr>
+<tr>
+<td>Second Number::
+</td>
+<td>
+<input type="text" name="second"/>
+</td>
+</tr>
+<tr>
+<td>
+<input type="button" name="cal" value="add"/>
+<input type="button" name="cal" value="substract"/>
+</td>
+<td>
+<input type="button" name="cal" value="multiply"/>
+<input type="button" name="cal" value="division"/>
+</td>
+</tr>
+</form>
+<tr>
+<td>
+<a href="calculatorurl?cal=countries">link for list of countries</a>
+</td>
+<td>
+<a href="calculatorurl?cal=languages">link for list of languages</a>
+</td>
+</tr>
+</table>
+</center>
+</body>
+</html>

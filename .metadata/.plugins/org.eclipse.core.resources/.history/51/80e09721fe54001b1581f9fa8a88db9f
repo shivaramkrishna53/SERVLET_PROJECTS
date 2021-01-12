@@ -1,0 +1,132 @@
+<html>
+<head>
+<title>Registration</title>
+</head>
+<body bgcolor="yellow">
+<center>
+<h1 >WELCOME TO THE REGISTRATION PAGE</h1>
+<form action="registrationurl" method="post">
+<table border="3">
+<tr>
+<td>Name::</td>
+<td>
+<input type="text" name="pname" placeholder="enter the name"/>
+</td>
+</tr>
+<tr>
+<td>Age::</td>
+<td>
+<input type="number" name="page" placeholder="enter the age"/>
+</td>
+</tr>
+<tr>
+<td>Address::</td>
+<td>
+<textarea rows="5" cols="20" placeholder="enter the address" name="address"></textarea>
+</td>
+</tr>
+<tr>
+<td>Gender::</td>
+<td>
+<input type="radio" name="gender" value="M" checked>Male
+<input type="radio" name="gender" value="F">FeMale
+<input type="radio" name="gender" value="T">TransGender
+</td>
+</tr>
+<tr>
+<td>Marital Status::</td>
+<td>
+<input type="checkbox" name="marstatus" value="Married">Married
+</td>
+</tr>
+<tr>
+<td>
+Educational Qualification::
+</td>
+<td>
+<select name="education">
+<option>----SELECT HIGEST EDUCATIONAL QUALIFICATION---</option>
+<option value="btech">B.TECH</option>
+<option value="mbbs">MBBS</option>
+<option value="bcom">B.COM</option>
+<option value="bpharmacy">B.PHARMACY</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Languages Known::</td>
+<td>
+<select name="languages" multiple>
+<option>---SELECT LANGUAGES KNOWN----</option>
+<option value="english" selected>English</option>
+<option value="hindi" selected>Hindi</option>
+<option value="telugu">Telugu</option>
+<option value="tamil">Tamil</option>
+<option value="bengali">Bengali</option>
+<option value="marathi">Marathi</option>
+<option value="kanada">Kanada</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Hobbies::</td>
+<td>
+<input type="checkbox" name="hobbies" value="cricket">Cricket
+<input type="checkbox" name="hobbies" value="music">Music
+<input type="checkbox" name="hobbies" value="watching movies">watching movies
+<input type="checkbox" name="hobbies" value="others">Others
+</td>
+</tr>
+<tr>
+<td>Mobile Number::</td>
+<td>
+<input type="tel" name="mobile">
+</td>
+</tr>
+<tr>
+<td>Date of Birth::</td>
+<td>
+<input type="date" name="dob">
+</td>
+</tr>
+<tr>
+<td>Time of Birth::</td>
+<td>
+<input type="time" name="tob">
+</td>
+</tr>
+<tr>
+<td>Email::</td>
+<td>
+<input type="email" name="emailid">
+</td>
+</tr>
+<tr>
+<td>Favorite Color::</td>
+<td>
+<input type="color" name="color">
+</td>
+</tr>
+<tr>
+<td>Salary Range::</td>
+<td>0 <input type="range" name="salary">10000000 
+</td>
+</tr>
+<tr>
+<td>FaceBook Url::</td>
+<td>
+<input type="url" name="fburl">
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<input type="submit" value="submit"/> 
+<input type="reset" value="reset">
+</td>
+</tr>
+</table>
+</form>
+</center>
+</body>
+</html>

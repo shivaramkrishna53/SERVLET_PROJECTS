@@ -1,0 +1,143 @@
+package com.nt.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Arrays;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class RegistrationServlet extends HttpServlet{
+
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		System.out.println("do get");
+		doPost(req, resp);
+	}
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		System.out.println("doPost");
+		String name=req.getParameter("pname");
+		int age=Integer.parseInt(req.getParameter("page"));
+		String address=req.getParameter("address");
+		String gender=req.getParameter("gender");
+		String marstatus=req.getParameter("marstatus");
+		if(marstatus==null)
+			marstatus="not married";
+		String education=req.getParameter("education");
+		String languages[]=req.getParameterValues("languages");
+		if(languages==null)
+			languages[]=new String(){"no languages known"};
+		String hobbies[]=req.getParameterValues("hobbies");
+		String mobile=req.getParameter("mobile");
+		String dob=req.getParameter("dob");
+		String tob=req.getParameter("tob");
+		String emailid=req.getParameter("emailid");
+		String color=req.getParameter("color");
+		String salary=req.getParameter("salary");
+		String fburl=req.getParameter("fburl");
+		
+		resp.setContentType("text/html");
+		PrintWriter pw=resp.getWriter();
+		//b.logic
+		pw.println("<body bgcolor='orange'>");
+		pw.println("<h1 style='text-align:center'>REGISTRATION SUCCESSFULLY DONE<br><br><br>DETAILS ARE AS FOLLOWS<h1>");
+		if(gender.equalsIgnoreCase("M"))
+		{
+			if(age<5)
+				pw.println("<h1 style='color:green'>Master."+name+"::You are small kid</h1><br>");
+			else
+				if(age<13)
+					pw.println("<h1 style='color:green'>Master."+name+":: You are kid</h1><br>");
+				else
+					if(age<20)
+						pw.println("<h1 style='color:green'>Mister."+name+":: You are Teenager</h1><br>");
+					else
+						if(age<35)
+							pw.println("<h1 style='color:green'>Mr."+name+":: You are Young Man</h1><br>");
+						else
+							if(age<50)
+								pw.println("<h1 style='color:green'>Mr."+name+":: You are middle aged</h1><br>");
+							else
+								if(age<100)
+									pw.println("<h1 style='color:green'>Mister."+name+":: You are old</h1><br>");
+	
+			
+		}
+		else
+			if(gender.equalsIgnoreCase("F"))
+			{
+				
+				if(age<5)
+					pw.println("<h1 style='color:green'>Miss."+name+"::You are small kid</h1><br>");
+				else
+					if(age<13)
+						pw.println("<h1 style='color:green'>Miss."+name+":: You are kid</h1><br>");
+					else
+						if(age<20)
+							pw.println("<h1 style='color:green'>Miss."+name+":: You are Teenager</h1><br>");
+						else
+							if(age<35)
+							{
+								if(marstatus.equalsIgnoreCase("Married"))
+								
+								pw.println("<h1 style='color:green'>Mrs."+name+":: You are Young Woman</h1><br>");
+								
+								else
+									pw.println("<h1 style='color:green'>Miss."+name+":: You are Young Woman</h1><br>");
+
+							}
+								else
+								if(age<50)
+								{
+									if(marstatus.equalsIgnoreCase("Married"))
+										pw.println("<h1 style='color:green'>Mrs."+name+":: You are Middle aged Woman</h1><br>");
+									else
+									pw.println("<h1 style='color:green'>Miss."+name+":: You are middle aged</h1><br>");
+								}
+									else
+									if(age<100)
+									{
+										if(marstatus.equalsIgnoreCase("Married"))
+										pw.println("<h1 style='color:green'>Mrs."+name+":: You are Old aged Woman</h1><br>");
+									else
+									pw.println("<h1 style='color:green'>Miss."+name+":: You are Old aged</h1><br>");
+									}
+			}
+				
+			
+			else
+				if(gender.equalsIgnoreCase("T"))
+					pw.println("<h1 style='color:green'>Mr."+name+":: You are a Transgender</h1><br>");
+			
+		
+		
+		
+		//displayiing all other details
+		pw.println("<h1 style='color:green;text-align:center'>Age::"+age+"</h1>");
+		pw.println("<h1 style='color:green;text-align:center'>Address::"+address+"</h1>");
+		pw.println("<h1 style='color:green;text-align:center'>Gender::"+gender+"</h1>");
+		pw.println("<h1 style='color:green;text-align:center'>Marital Status::"+marstatus+"</h1>");
+		pw.println("<h1 style='color:green;text-align:center'>Education::"+education+"</h1>");
+		pw.println("<h1 style='color:green;text-align:center'>languages known::"+Arrays.deepToString(languages)+"</h1>");
+		pw.println("<h1 style='color:green;text-align:center'>Hobbies::"+Arrays.deepToString(hobbies)+"</h1>");
+		pw.println("<h1 style='color:green;text-align:center'>Mobile Number::"+mobile+"</h1>");
+		pw.println("<h1 style='color:green;text-align:center'>Date of Birth::"+dob+"</h1>");
+		pw.println("<h1 style='color:green;text-align:center'>Time of Birth::"+tob+"</h1>");
+		pw.println("<h1 style='color:green;text-align:center'>Email::"+emailid+"</h1>");
+		pw.println("<h1 style='color:green;text-align:center'>Favorite Color::"+color+"</h1>");
+		pw.println("<h1 style='color:green;text-align:center'>Salary::"+salary+"</h1>");
+		pw.println("<h1 style='color:green;text-align:center'>Fburl::"+fburl+"</h1>");
+		
+		
+		//close the printwriter stream
+		pw.close();
+		
+		
+	
+	}
+}

@@ -8,7 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class MarriageServlet extends HttpServlet {
+public class MarriageServlet extends HttpServlet  {
+	
 	@Override
 	public void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException
 	{
@@ -29,7 +30,7 @@ public class MarriageServlet extends HttpServlet {
 			if(gender.equalsIgnoreCase("F"))
 			{
 				if(age>=18)
-					pw.println("<h1 style='text-align:center;color:green'>Mrs."+name+" you are elgible for marriage</h1>");
+					pw.println("<h1  style='text-align:center;color:yellow'>Mrs."+name+" you are elgible for marriage</h1>");
 				else
 					pw.println("<h1 style='text-align:center;color:red'>Mrs."+name+" you are not elgible for the marriage wait for another"+(18-age)+" years");
 					
@@ -49,5 +50,6 @@ public class MarriageServlet extends HttpServlet {
 		pw.println("<h1>Welcome to getpage</h1>");
 		
 	}
+	
 
 }
